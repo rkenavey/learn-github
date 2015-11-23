@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SampleConsoleApp
 {
-    class StringFactory
+    public class StringFactory : IStringFactory
     {
         private readonly Dictionary<string, string> _stringLookup = new Dictionary<string, string>();
 
