@@ -10,9 +10,12 @@ namespace SampleConsoleApp
     {
         static void Main(string[] args)
         {
+            StringFactory sf = new StringFactory();
             Console.WriteLine("Hello world!");
             Console.WriteLine("Hello world again!!");
             Console.WriteLine(GetSomething());
+            Console.WriteLine(sf.CreateString("one"));
+            Console.WriteLine(sf.CreateString("two"));
             Console.Read();
         }
 
