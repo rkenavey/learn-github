@@ -14,8 +14,12 @@ namespace SampleConsoleApp
             Console.WriteLine("Hello world!");
             Console.WriteLine("Hello world again!!");
             Console.WriteLine(GetSomething());
+
             Console.WriteLine(sf.CreateString("one"));
             Console.WriteLine(sf.CreateString("two"));
+            Console.WriteLine(sf.CreateString("three"));
+            Console.WriteLine(sf.CreateString("four"));
+
             Console.Read();
         }
 
