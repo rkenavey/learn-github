@@ -12,7 +12,10 @@ namespace SampleConsoleApp
         {
             Console.WriteLine("Hello world!");
             Console.WriteLine("Hello world again!!");
+            Console.WriteLine(GetSomething());
             Console.Read();
         }
+
+        private static string GetSomething() => "Something";
     }
 }
