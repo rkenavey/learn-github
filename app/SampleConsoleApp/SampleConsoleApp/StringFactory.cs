@@ -20,5 +20,9 @@ namespace SampleConsoleApp
 
         public string CreateString(string key) => _stringLookup[key];
 
+        public void AddString(string key, string val)
+        {
+            _stringLookup.Add(key, val);
+        }
     }
 }
