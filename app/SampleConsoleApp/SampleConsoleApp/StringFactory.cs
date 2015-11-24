@@ -24,5 +24,11 @@ namespace SampleConsoleApp
         {
             _stringLookup.Add(key, val);
         }
+
+        public void DeleteString(string key)
+        {
+            if (_stringLookup.ContainsKey(key))
+                _stringLookup.Remove(key);
+        }
     }
 }

@@ -20,6 +20,8 @@ namespace SampleConsoleApp
             Console.WriteLine(sf.CreateString("three"));
             Console.WriteLine(sf.CreateString("four"));
 
+            sf.DeleteString("four");
+
             Console.Read();
         }
 
